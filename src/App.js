@@ -54,6 +54,18 @@ const App = () => {
         >
           ☰
         </button>
+        <span
+          style={{
+            fontSize: "24px",
+            fontWeight: "bold",
+            position: "absolute",
+            left: "50%",
+            transform: "translateX(-50%)",
+            marginTop:20
+          }}
+        >
+          The News App
+        </span>
         {isSideNavOpen && (
           <SideNav
             onSelectCategory={CategorySelection}
